@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Shivam Ali &amp; Kanti Khatun | Shubh Vivah</title>
+<meta name="description" content="Wedding invitation of Shivam Ali and Kanti Khatun, Pakwaliya, 16–25 November 2026">
+<meta property="og:title" content="Shivam Ali &amp; Kanti Khatun – Shubh Vivah">
+<meta property="og:description" content="You are invited · Pakwaliya · 16–25 November 2026">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/monogram.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&family=Hind:wght@300;400;500&family=Noto+Serif+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<div class="gate" id="gate" aria-label="Invitation gate">
+  <div class="door left"></div><div class="door right"></div>
+  <div class="gate-content">
+    <p class="dev" data-i18n="ganesha"></p>
+    <div class="seal"><img src="assets/monogram.png" alt="" onerror="this.remove()"><span class="mono">S&amp;K</span></div>
+    <h1 class="gate-names" id="gateNames">Shivam Ali &amp; Kanti Khatun</h1>
+    <p class="sub">16 – 25 November 2026 · Pakwaliya</p>
+    <p style="margin-top:1.4rem"><button class="btn" id="openBtn">Open Invitation</button></p>
+  </div>
+</div>
+
+<header class="topbar">
+  <span class="brand">S &amp; K</span>
+  <div>
+    <button class="icon-btn" id="music" aria-label="Play or pause music">♪</button>
+    <button class="icon-btn" id="lang">हिंदी</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="arch">
+      <p class="dev-sm">ॐ श्री गणेशाय नमः</p>
+      <div class="names" id="heroNames"></div>
+      <p class="sub" id="heroDate"></p>
+    </div>
+  </section>
+
+  <section class="blessings">
+    <p class="dev" data-i18n="shloka"></p>
+    <p class="divider">◆ ◆ ◆</p>
+    <p data-i18n="blessing"></p>
+  </section>
+
+  <section class="card" id="invite" style="margin-bottom:0"></section>
+
+  <section class="countdown">
+    <h2 data-i18n="countdown"></h2>
+    <div id="cd"></div>
+    <p class="sub" data-i18n="pherasNote"></p>
+  </section>
+
+  <section class="functions">
+    <h2 data-i18n="functions"></h2>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section class="rsvp">
+    <h2 data-i18n="rsvp"></h2>
+    <p class="family" data-i18n="rsvpSub"></p>
+    <ul id="rsvpList"></ul>
+    <p id="phones"></p>
+  </section>
+
+  <section class="closing">
+    <p class="dev" data-i18n="thanks"></p>
+    <div class="actions">
+      <button class="btn-sm" id="share"></button>
+      <button class="btn-sm" id="copy"></button>
+      <button class="btn-sm" id="pdf"></button>
+    </div>
+    <a href="#top" data-i18n="top"></a>
+  </section>
+</main>
+
+<audio id="bgm" loop preload="none" src="assets/sehnai.mp3"></audio>
+<script src="config.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
